@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    font-style: normal;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(200, 139, 244);
+}
+
+.logout {
+    margin-left: 700px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    background: url('img/supermarket1.jpg'); background-repeat: no-repeat; background-attachment: fixed; 
+    background-size: cover;
+}
+
+.section1 {
+    color: white;
+    width: 800px;
+    height: 400px;
+    margin: 50px 240px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.section2 {
+    width: 800px;
+    height: 400px;
+    margin: 50px 240px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+.section3 {
+    width: 800px;
+    height: 400px;
+    margin: 50px 240px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.container {
+    height: 320px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.update {
+    padding: 7px;
+    border: 2px solid;
+    text-align: center;
+    color: blueviolet;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 ol {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.box1 ol li {
+    text-decoration: none;
+    margin-right: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 19px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 ol a {
+    text-decoration: none;
+    color: black;
+}
+
+.box1 ol li:hover {
+    background-color: rgb(216, 176, 221);
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .contact {
+    margin: 20px 0;
+}
+
+.footer-section .contact i {
+    margin-right: 10px;
+}
+
+.footer-section .socials a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-section .socials a:hover {
+    color: #ddd;
+}
+
+.footer-section .contact-form .text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section .contact-form .btn {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-section .contact-form .btn:hover {
+    background-color: #444;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+
+/* Specific styles for footer-section links */
+
+.footer-section.links {
+    text-align: left;
+}
+
+.footer-section.links ul {
+    padding-left: 0;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section.links ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-section.contact-form {
+    text-align: left;
+}
+
+.footer-section.contact-form .text-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.footer-section.contact-form .btn {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.footer-section.contact-form .btn:hover {
+    background-color: #444;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar li {
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    .logout {
+        margin-left: 0;
+    }
+    .section{
+        margin: 0px 0;
+        background: url("img/phone\ grocery.jpeg");
+        
+    }
+
+    .section1 {
+        width: 100%;
+        margin: 0px 0;
+
+    }
+
+    .section2 {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .section3 {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .box1 ol {
+        margin-left: 0;
+    }
+
+    .box1 ol li {
+        margin-right: 0;
+    }
+
+    .box1 ol a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .box1 ol li:hover {
+        background-color: rgb(216, 176, 221);
+        color: rgb(255, 255, 255);
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section.links {
+        text-align: center;
+    }
+
+    .footer-section.contact-form {
+        text-align: center;
+    }
+
+    .footer-section.contact-form .text-input {
+        width: 100%;
+    }
+
+    .footer-section.contact-form .btn {
+        width: 100%;
+    }
+    
+}
